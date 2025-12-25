@@ -1,0 +1,5 @@
+---
+- name: capture output of id command
+  command: cat /etc/system-release
+  register: login
+- debug: msg="{{ login.stdout }}"
