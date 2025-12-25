@@ -1,0 +1,4 @@
+- name: Print linux distribution and version
+  hosts: all
+  roles:
+    - role: ansible-debug-os
