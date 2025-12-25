@@ -14,7 +14,7 @@ pipeline {
                 ansiblePlaybook('playbook.yml') {
                     inventoryPath('nventory.ini')
                     // ansibleName('1.9.4')
-                    tags('one,two')
+                    // tags('one,two')
                     // credentialsId('credsid')
                     become(true)
                     becomeUser("user")
